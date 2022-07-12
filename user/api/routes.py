@@ -11,4 +11,3 @@ urlpatterns = [
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('auth/user/', UserView.as_view()),
 ]
-
