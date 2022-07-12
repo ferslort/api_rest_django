@@ -6,4 +6,5 @@ from projects.models import Project
 
 @admin.register(Project)
 class ProjectAdmin(admin.ModelAdmin):
-    list_display = ['name', 'description', 'slug', 'created_at']
+    list_display = ['name', 'description', 'slug',
+                    'created_at', 'updated_at', 'user', 'dateDelivery', 'isCompleted']
